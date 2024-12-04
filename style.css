@@ -125,18 +125,24 @@ body {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     body {
         padding-right: 15px;
         background-size: contain;
         background: url(img/robby-cel.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-right: 30px;
 
     }
 
     .container {
-        width: 90%;
+        width: auto;
         height: auto;
         padding: 20px 30px;
+        align-items: -25%;
+        justify-items: -25%;
     }
 
     .container h1 {
